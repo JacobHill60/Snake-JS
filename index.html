@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1>
+      <span
+        style="
+          background-color: green;
+          padding: 20px;
+          box-shadow: 0 0 8px 8px white inset;
+          color: tan;
+          text-align: center;
+        "
+        >Snake Game</span
+      >
+    </h1>
+  </head>
+  <body style="background-color: darkkhaki;">
+    <canvas
+      class="canvas"
+      height="400"
+      width="400"
+      style="
+        background-color: darkolivegreen;
+        box-shadow: 0 0 8px 8px white inset;
+        padding: 20px;
+        box-sizing: border-box;
+      "
+    ></canvas>
+
+    <h1>
+      <span
+        style="
+          background-color: green;
+          padding: 20px;
+          box-shadow: 0 0 8px 8px white inset;
+          color: tan;
+        "
+        >Score</span
+      >
+    </h1>
+
+    <span></span>
+    <h1>
+      <span
+        class="score"
+        style="
+          background-color: green;
+          padding-left: 20px;
+          padding-right: 20px;
+          box-shadow: 0 0 3px 3px white inset;
+          color: tan;
+        "
+      ></span>
+    </h1>
+    <h2
+      style="
+        background-color: green;
+        padding: 20px;
+        box-shadow: 0 0 8px 8px white inset;
+        color: tan;
+      "
+    >
+      Your goal is to rack up points by directing the snake object to the fruit
+      object. If the snake collides with itself, your score, as well as the
+      snake's body, will reset.
+    </h2>
+  </body>
+  <script type="text/javascript" src="grape.js"></script>
+  <script type="text/javascript" src="snake.js"></script>
+  <script type="text/javascript" src="draw.js"></script>
+</html>
